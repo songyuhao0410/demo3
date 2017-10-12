@@ -10,7 +10,6 @@ cc.Class({
             default: null
         }
     },
-
     onEnable: function () {
         this.debugDrawFlags = cc.director.getPhysicsManager().debugDrawFlags;
         cc.director.getPhysicsManager().debugDrawFlags = 
@@ -18,7 +17,7 @@ cc.Class({
             cc.PhysicsManager.DrawBits.e_shapeBit
             ;
     },
-
+//  git 測試
     onDisable: function () {
         cc.director.getPhysicsManager().debugDrawFlags = this.debugDrawFlags;
     },
