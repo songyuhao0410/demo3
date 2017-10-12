@@ -1,6 +1,6 @@
 var Common = require('JoystickCommon');
 var JoystickBG = require('JoystickBG');
-
+// ss
 cc.Class({
     extends: cc.Component,
 
