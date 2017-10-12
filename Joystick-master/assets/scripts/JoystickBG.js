@@ -37,8 +37,7 @@ cc.Class({
         _speed2: 2,         //二段速度
         _opacity: 0,        //透明度
     },
-
-
+    //  git 测试
     onLoad: function()
     {
         // joy下的Game组件
